@@ -1,0 +1,21 @@
+package com.example.demo;
+
+//We can make use of lambda expression for functional type interfaces only.  
+//An interface with only a single abstract method is called a functional interface.
+
+interface Lambda{
+	public void demo(); 
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Lambda lambda = ()->{
+			System.out.println("Statement 1");
+			System.out.println("Statement 2");
+		};
+		lambda.demo();
+		
+	}
+}

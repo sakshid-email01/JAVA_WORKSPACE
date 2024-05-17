@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\New folder\workspaces\java lambda expression application workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+904313030.index
+1019770625.index
+3687491400.index
+540471432.index
