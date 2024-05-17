@@ -1,0 +1,23 @@
+package com.example.demo;
+
+public class ComparableInterface {
+	
+	//A comparable Interface is used to sort the custom-type objects. By default, a class defined by the user 
+	//is not comparable. Hence, their objects cannot be compared.
+	//To make an object comparable, the class must implement a comparable interface.
+	
+	public static void main(String[] args) {
+		
+		Integer a1 = 4;
+        Integer a2 = 2;
+        Integer a3 = a1;
+        
+        
+        System.out.println(a1.compareTo(a2));
+        System.out.println(a2.compareTo(a1));
+        System.out.println(a3.compareTo(a1));
+
+		
+	}
+
+}

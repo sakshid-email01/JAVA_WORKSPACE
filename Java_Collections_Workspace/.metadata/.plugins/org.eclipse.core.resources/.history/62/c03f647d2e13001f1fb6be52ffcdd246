@@ -1,0 +1,19 @@
+package com.example.demo;
+import java.util.ArrayList;
+
+public class ArrayList {
+	
+	static ArrayList info = new ArrayList();
+
+	public static void main(String[] args) {
+		info.add("Chaand");
+		info.add("John");
+		info.add("Steve");
+		info.add("Pooja");
+		info.add("Salim");
+		info.add("Rahul");
+		info.add("Mia");
+		info.add("Angel");
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.demo.QueueDemo&apos; to &apos;Maps&apos;&#x0D;&#x0A;- Original project: &apos;Maps&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.QueueDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.demo.Maps&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;QueueDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.demo{QueueDemo.java[QueueDemo" matchStrategy="1" name="Maps" qualified="false" references="true" similarDeclarations="false" stamp="1715846928783" textual="false" version="1.0"/>
+</session>

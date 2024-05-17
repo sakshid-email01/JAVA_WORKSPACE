@@ -1,0 +1,34 @@
+package com.example.demo;
+
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class QueueDemo {
+
+	public static void main(String[] args) {
+
+		Queue<Integer> queue = new LinkedBlockingQueue<>();
+		queue.add(1);
+		queue.add(2);
+		queue.add(3);
+		queue.add(4);
+		queue.add(5);
+
+		for (Integer element : queue) {
+			System.out.println(element);
+		}
+		Queue<Integer> queueVar = new ArrayBlockingQueue<>(6);
+		queueVar.add(1);
+		queueVar.add(2);
+		queueVar.add(3);
+		queueVar.add(4);
+		queueVar.add(5);
+		queueVar.add(6);
+
+		for (Integer element : queueVar) {
+			System.out.println(element);
+		}
+	}
+
+}

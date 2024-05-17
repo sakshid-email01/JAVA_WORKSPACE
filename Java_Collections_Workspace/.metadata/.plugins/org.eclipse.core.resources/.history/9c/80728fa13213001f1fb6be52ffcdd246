@@ -1,0 +1,19 @@
+package com.example.demo;
+
+import java.util.LinkedList;
+
+public class LinkedListInitialization {
+
+	public static void main(String[] args) {
+
+		LinkedList<Integer> myNumbers = new LinkedList<Integer>();
+	    myNumbers.add(1);
+	    myNumbers.add(2);
+	    myNumbers.add(3);
+	    myNumbers.add(4);
+	    for (int i : myNumbers) {
+	      System.out.println(i);
+	    }
+	}
+
+}

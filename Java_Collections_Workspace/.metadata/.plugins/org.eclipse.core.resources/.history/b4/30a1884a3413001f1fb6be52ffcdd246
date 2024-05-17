@@ -1,0 +1,37 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListInterface {
+
+	public static void main(String[] args) {
+
+		List<String> demo = new ArrayList<>();
+		demo.add("One");
+		demo.add("Two");
+		demo.add("Three");
+		demo.add("Four");
+		demo.add("Five");
+		new ListInterface().printList(demo);
+	    
+		List<String> numbers = new LinkedList<>();
+		numbers.add("One");
+		numbers.add("Two");
+		numbers.add("Three");
+		numbers.add("Four");
+		numbers.add("Five");
+		new ListInterface().printList(numbers);
+	   
+
+	}
+
+	private void printList(List<String> demo) {
+		// TODO Auto-generated method stub
+		for(String element: demo){
+			System.out.println("Element: "+element);
+		}
+	}
+
+}

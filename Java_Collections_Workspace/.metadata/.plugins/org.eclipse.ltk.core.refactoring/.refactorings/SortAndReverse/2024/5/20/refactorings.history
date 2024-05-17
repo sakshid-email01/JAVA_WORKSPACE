@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.demo.LinkedListInitialization&apos; to &apos;SortAndReverse&apos;&#x0D;&#x0A;- Original project: &apos;SortAndReverse&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.LinkedListInitialization&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.demo.SortAndReverse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedListInitialization&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.demo{LinkedListInitialization.java[LinkedListInitialization" matchStrategy="1" name="SortAndReverse" qualified="false" references="true" similarDeclarations="false" stamp="1715830414781" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.example.demo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps {
+
+	public static void main(String[] args) {
+
+		Map<Integer, String> student = new HashMap<>();
+		student.put(1, "One");
+		student.put(2, "Two");
+		student.put(3, "Three");
+		for (Map.Entry<Integer, String> entry : student.entrySet()) {
+            System.out.println(entry);
+            System.out.println("Key: "+entry.getKey()+" Value: "+entry.getValue());
+			
+		}
+		System.out.println(student.get(3));
+		
+	}
+
+}

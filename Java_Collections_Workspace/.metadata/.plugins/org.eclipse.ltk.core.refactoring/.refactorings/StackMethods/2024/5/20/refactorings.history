@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.demo.StackDemo&apos; to &apos;StackMethods&apos;&#x0D;&#x0A;- Original project: &apos;StackMethods&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.StackDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.demo.StackMethods&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StackDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.demo{StackDemo.java[StackDemo" matchStrategy="1" name="StackMethods" qualified="false" references="true" similarDeclarations="false" stamp="1715829057789" textual="false" version="1.0"/>
+</session>
